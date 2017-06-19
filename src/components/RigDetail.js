@@ -12,13 +12,15 @@ const RigDetail = ({rig}) => {
         smallTextStyle,
         thumbContainerStyle
     } = styles;
+
+
     return (
         <Card>
             <CardSection>
                 <View style={thumbContainerStyle}>
                     <Image
                         style={thumbStyle}
-                        source={{ uri: 'https://facebook.github.io/react/img/logo_og.png' }}
+                        source={require('../img/rig.jpg')}
                     />
                 </View>
                 <View style={headerContentStyle}>
