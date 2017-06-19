@@ -1,0 +1,3 @@
+rootProject.name = 'mrt'
+
+include ':app'
